@@ -1,0 +1,8 @@
+This is a project for the cloud computing assignment 1
+This is a project under spring framework, so make sure that your eclipse is installed with Spring tool
+Here is some steps to run the  code:
+1. delete the dependency of twittercore-4.0.2.jar and twitterstream-4.0.2.jar in maven (This project use local repository to get this two jar, so this part of code doesn't work)
+2. add dependency of twittercore-4.0.2.jar and twitterstream-4.0.2.jar to maven
+3. run the application on web server
+
+Actually, this is somewhat difficult to set appropriate environment for spring due to the dependency problem. If you failed to run the code, please contact lz2413@columbia.edu.
